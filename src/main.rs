@@ -14,8 +14,8 @@ fn main() {
     println!("********************************************");
     println!("********************************************");
     println!("********************************************\n");
-    println!("Digite o valor de a:");
     
+    println!("Digite o valor de a:");
     let mut a = String::new();
     io::stdin().read_line(&mut a).expect("Falha ao ler entrada");
     let a: f64 = a.trim().parse().expect("Por favor, digite um número!");
